@@ -32,6 +32,10 @@ body {
     padding: 0 var(--spacing-md);
 }
 
+.center {
+    text-align: center;
+}
+
 /* Header Styles */
 .header {
     position: fixed;
@@ -278,10 +282,10 @@ body {
 input, textarea {
     width: 100%;
     padding: var(--spacing-md);
-    background: rgba(255, 255, 255, 0.05);
+    background: rgb(255, 255, 255);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: var(--border-radius);
-    color: var(--text-light);
+    color: black;
     transition: var(--transition);
 }
 
