@@ -47,14 +47,14 @@ document.querySelectorAll('.faq-question').forEach(question => {
     });
 });
 
-// Form submission
-const form = document.querySelector('.contact-form');
-form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    // Add your form submission logic here
-    alert('Thank you for joining our waitlist! We\'ll be in touch soon.');
-    form.reset();
-});
+// // Form submission
+// const form = document.querySelector('.contact-form');
+// form.addEventListener('submit', (e) => {
+//     // e.preventDefault();
+//     // Add your form submission logic here
+//     alert('Thank you for joining our waitlist! We\'ll be in touch soon.');
+//     form.reset();
+// });
 
 // Intersection Observer for animations
 const observerOptions = {
